@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#invoice {
+    border: 2px solid #000;
+    padding: 20px;
+    background: #fff;
+}
+h5 {
+    background: #002F6C;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+}
+table {
+    width: 100%;
+}
+
+.page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+
+
+.col-description {
+    width: 80%; /* Más espacio para la descripción */
+}
+
+.col-amount {
+    width: 15%; /* Espacio moderado para el monto */
+}
+
+.col-action {
+    width: 5%; /* Espacio para la acción */
+}
+
+.table {
+    font-size: 0.9rem; /* Reduce el tamaño de la fuente */
+}
+
+.table td, .table th {
+    padding: 0.3rem; /* Reduce el padding de las celdas */
+}
+
+.table input {
+    font-size: 0.85rem; /* Reduce el tamaño de los campos de entrada */
+    padding: 0.2rem; /* Reduce el padding interno de los inputs */
+    height: auto; /* Ajusta la altura de los inputs */
+}
+
+.title {
+    color: #225497; /* Cambia el color a azul */
+    font-size: 2.5rem; /* Aumenta el tamaño de la fuente */
+    font-style: italic; /* Aplica letra cursiva */
+    font-weight: bold; /* Opcional: hace el texto más grueso */
+    text-align: left; /* Opcional: alinea el texto a la izquierda */
+}
